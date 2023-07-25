@@ -11,6 +11,6 @@
 (function() {
     'use strict';
 
-    // Replace the original Spotify ad function with an empty function
+    // Replace the original Spotify ad function with an empty function if you want
     window.__defineGetter__('__spotify_ads', function() { return function() {}; });
 })();
