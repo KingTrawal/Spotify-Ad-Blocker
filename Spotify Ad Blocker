@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         Spotify Ad Blocker
+// @namespace    https://www.spotify.com
+// @version      1.0
+// @description  Bypasses ads on Spotify Web Player - Made by King Trawal
+// @author       DAN
+// @match        https://*.spotify.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Replace the original Spotify ad function with an empty function
+    window.__defineGetter__('__spotify_ads', function() { return function() {}; });
+})();
