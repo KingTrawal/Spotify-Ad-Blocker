@@ -3,7 +3,7 @@
 // @namespace    https://www.spotify.com
 // @version      1.0
 // @description  Bypasses ads on Spotify Web Player - Made by King Trawal
-// @author       DAN
+// @author       King Trawal
 // @match        https://*.spotify.com/*
 // @grant        none
 // ==/UserScript==
